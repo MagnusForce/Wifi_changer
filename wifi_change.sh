@@ -29,3 +29,5 @@ echo "New key: $new_key"
 
 # Send SMS with the new key to the specified phone number
 send_sms "$PHONE_NUMBER" "$new_key"
+
+/etc/init.d/network reload
