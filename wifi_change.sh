@@ -2,7 +2,7 @@
 
 WIRELESS_CONFIG="/etc/config/wireless"
 
-PHONE_NUMBER="0037066221080"
+PHONE_NUMBER=""
 
 generate_random_key() {
     head -c 32 /dev/urandom | base64 | tr -dc 'a-zA-Z0-9' | head -c 12
